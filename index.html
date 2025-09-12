@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Argie Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="logo">ARGIE</h1>
+
+      <nav class="nav-links">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- home section -->
+    <article id="home">
+      <div class="home">
+        <!-- Left side: text -->
+        <div class="home-text">
+          I’m <strong>Argie, a Backend, API, and Mobile Developer</strong><br />
+          Skilled in building scalable backends, efficient APIs, and
+          user-friendly mobile apps. Passionate about clean code and continuous
+          learning.
+        </div>
+
+        <!-- Right side: image -->
+        <div class="home-image">
+          <img src="./assest/mypic.jpg" alt="Argie" />
+        </div>
+      </div>
+    </article>
+
+    <!-- about -->
+    <article id="about">
+      <!-- Left: image -->
+      <div class="about-image">
+        <img src="./assest/studentpic.jpg" alt="About Argie" />
+      </div>
+
+      <!-- Right: text -->
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          My name <strong>Argie P. Beloa</strong>, currently studying at
+          <strong>Colegio de la Purisima Concepcion</strong>. I have
+          <strong>mid-level experience</strong> in
+          <strong>Java programming</strong> with the Spring API framework,
+          <strong>MongoDB</strong> for database management, and
+          <strong>React Native</strong> with TypeScript for mobile application
+          development.
+        </p>
+      </div>
+    </article>
+
+    <!-- skills -->
+
+    <article id="skills" class="skills">
+      <h2>My Skills</h2>
+      <div class="skills-grid">
+        <!-- Card 1: Programming -->
+        <div class="skill-card">
+          <i class="fas fa-code fa-3x"></i>
+          <h3>
+            Programming
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+              alt="Java"
+              class="inline-icon"
+            />
+          </h3>
+          <p>
+            Building backend services and mobile apps using Java and TypeScript.
+          </p>
+          <div class="tags">
+            <span>Java</span>
+            <span>TypeScript</span>
+            <span>Node.js</span>
+          </div>
+          <div class="links">
+            <a
+              href="https://github.com/ArgieBeloa/spring-api-student"
+              target="_blank"
+            >
+              Sample Code
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 2: Database -->
+        <div class="skill-card">
+          <i class="fas fa-database fa-3x"></i>
+          <h3>
+            Database
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+              alt="MongoDB"
+              class="inline-icon"
+            />
+          </h3>
+          <p>
+            Experience with MongoDB for scalable and efficient data management.
+          </p>
+          <div class="tags">
+            <span>MongoDB</span>
+            <span>Aggregation</span>
+            <span>Schema Design</span>
+          </div>
+          <div class="links">
+            <a
+              href="https://www.mongodb.com/products/platform?msockid=3416b79ebde868811d0fa24abc28699b"
+              target="_blank"
+            >
+              Sample Code
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 3: Framework -->
+        <div class="skill-card">
+          <i class="fas fa-mobile-alt fa-3x"></i>
+          <h3>
+            Framework
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+              alt="React"
+              class="inline-icon"
+            />
+          </h3>
+          <p>Developing mobile apps with React Native and TypeScript.</p>
+          <div class="tags">
+            <span>React Native</span>
+            <span>Expo</span>
+            <span>UI/UX</span>
+          </div>
+          <div class="links">
+            <a
+              href="https://github.com/ArgieBeloa/Capstone-final-code"
+              target="_blank"
+            >
+              Sample Code
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 4: Security -->
+        <div class="skill-card">
+          <i class="fas fa-shield-alt fa-3x"></i>
+          <h3>
+            Security
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+              alt="Spring Security"
+              class="big-icon"
+            />
+          </h3>
+          <p>Implementing authentication with Basic Auth and JWT tokens.</p>
+          <div class="tags">
+            <span>Spring Security</span>
+            <span>JWT</span>
+            <span>OAuth2</span>
+          </div>
+          <div class="links">
+            <a
+              href="https://github.com/ArgieBeloa/CPCNOTIFY-NOTIFICATIONSPRING"
+              target="_blank"
+            >
+              Sample Code
+            </a>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- contact page -->
+    <article id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <p>
+        Have a project in mind or just want to connect? Feel free to reach out.
+      </p>
+
+      <form class="contact-form">
+        <label for="name">Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Your name"
+          required
+        />
+
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your email"
+          required
+        />
+
+        <label for="message">Message</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Write your message..."
+          required
+        ></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <div class="socials">
+        <p>Or connect with me:</p>
+        <a href="https://github.com/ArgieBeloa/" target="_blank">GitHub</a>
+        
+        <a href="https://www.facebook.com/argie.beloa/" target="_blank"
+          >Facebook</a
+        >
+        <a href="argiepbeloa@gmail.com">Email</a>
+      </div>
+    </article>
+
+    <footer class="footer">
+      <p>&copy; 2025 Argie. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
