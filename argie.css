@@ -299,10 +299,12 @@ h1 .accent {
   display: flex;
   justify-content: center;
   position: relative;
+  width: 100%;
 }
 .term-glow {
   position: absolute;
-  width: 340px;
+  width: 100%;
+  max-width: 340px;
   height: 340px;
   background: radial-gradient(
     circle,
@@ -315,7 +317,8 @@ h1 .accent {
 .terminal {
   position: relative;
   z-index: 1;
-  width: 340px;
+  width: 100%;
+  max-width: 340px;
   background: var(--ink-2);
   border: 1px solid var(--line);
   border-radius: 14px;
