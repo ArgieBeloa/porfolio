@@ -54,6 +54,20 @@ header {
   color: var(--HIGHLIGHT);
 }
 
+/* CV BUTTON */
+.cvbtn{
+  padding: 10px;
+  background: var(--SECONDARY);
+  border-radius: 12px;
+  border: hidden;
+  margin-inline: 10px;
+}
+
+.cvbtn:hover{
+ background: var(--HIGHLIGHT);
+ border: 2px solid black;
+}
+
 /* home section */
 .home {
   display: flex;
